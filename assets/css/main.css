@@ -392,7 +392,7 @@ h6 {
   --default-color: #ffffff;
   --heading-color: #ffffff;
   color: var(--default-color);
-  background-color: var(--background-color);
+  background-color: #215f34;
   font-size: 14px;
   position: relative;
    background-image: url(/assets/img/Gallery/limpopoDephEALTH.jpg);
@@ -427,8 +427,8 @@ h6 {
 }
 
 .footer .social-links a {
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
-  background-color: color-mix(in srgb, var(--default-color) 5%, white 10%);
+  color: #f7b41f;
+  background-color: #215f34;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -441,7 +441,7 @@ h6 {
 }
 
 .footer .social-links a:hover {
-  color: var(--contrast-color);
+  color: #215f34;
   background-color: var(--accent-color);
 }
 
@@ -490,7 +490,8 @@ h6 {
 }
 
 .footer .footer-contact p {
-  margin-bottom: 5px;
+  margin-bottom: 0px;
+
 }
 
 .footer .footer-newsletter .newsletter-form {
@@ -896,18 +897,24 @@ section,
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
+.about {
+  background-color: #215f34;
+}
+
 .about .content h3 {
   font-size: 1.75rem;
   font-weight: 700;
 }
-
-.about .content .fst-italic {
-  color: color-mix(in srgb, var(--default-color), var(--contrast-color) 50%);
+/* FFFFCC */
+.about .content .fst {
+  color: #FFFFCC;
+  font-style:normal;
 }
 
 .about .content ul {
   list-style: none;
   padding: 0;
+  color:whitesmoke;
 }
 
 .about .content ul li {
@@ -916,7 +923,7 @@ section,
 }
 
 .about .content ul i {
-  color: var(--accent-color);
+  color:#f7b41f;
   margin-right: 0.5rem;
   line-height: 1.2;
   font-size: 1.25rem;
@@ -926,18 +933,37 @@ section,
   margin-bottom: 0;
 }
 
+.about .cardImage {
+  box-shadow: 0 8px 8px 0 rgba(255, 255, 255, 0.2);
+  transition: 0.3s;
+  width: 40%;
+  margin-left: 50px;
+  height: 500px;width: 500px;
+  margin-top: -100px
+}
+
+.about .cardImage:hover {
+  box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.2);
+}
+
+.about .containerImage {
+  padding: 2px 16px;
+}
+
+
 /*--------------------------------------------------------------
 # Clients Section
 --------------------------------------------------------------*/
 .clients .swiper-slide img {
-  opacity: 0.5;
+
   transition: 0.3s;
+  opacity: 1;
   
 }
 
 .clients .swiper-slide img:hover {
   filter: none;
-  opacity: 1;
+  opacity: 0.5;
 }
 
 .clients .swiper-wrapper {
@@ -965,7 +991,8 @@ section,
 --------------------------------------------------------------*/
 .features .features-image {
   position: relative;
-  min-height: 400px;
+  min-height: 350px;
+  
 }
 
 .features .features-image img {
@@ -1000,9 +1027,14 @@ section,
 /*--------------------------------------------------------------
 # Services Section
 --------------------------------------------------------------*/
+
+.services{
+ background-color: #215f34;
+}
+
 .services .service-item {
   text-align: center;
-  border: 1px solid color-mix(in srgb, #3c9a41, transparent 85%);
+  border: 1px solid color-mix(in srgb, #f7b41f, transparent 85%);
   padding: 80px 20px;
   height: 100%;
   transition: all ease-in-out 0.3s;
@@ -1032,6 +1064,7 @@ section,
   margin: 10px 0 15px 0;
   font-size: 22px;
   transition: 0.3s;
+  color: #FFFFCC;
 }
 
 .services .service-item p {
@@ -1048,6 +1081,8 @@ section,
 /*--------------------------------------------------------------
 # Call To Action Section
 --------------------------------------------------------------*/
+
+
 .call-to-action {
   --background-color: #000000;
   --default-color: #ffffff;
