@@ -994,8 +994,14 @@ section,
   position: relative;
   min-height: 350px;
   
+}.btn-Features{
+  background-color: #21733a;
+  color: #f7b41f;
+  height: 50px;
+  width: 150px;
+  margin-left:500px;
+  margin-top: -70px;
 }
-
 .features .features-image img {
   position: absolute;
   inset: 0;
@@ -1013,7 +1019,7 @@ section,
 }
 
 .features .features-item i {
-  font-size: 48px;
+  font-size: 30px;
   color: var(--accent-color);
   margin-right: 20px;
   line-height: 0;
@@ -1078,6 +1084,123 @@ section,
   box-shadow: 2px 2 25px 2 color-mix(in srgb,#3c9a41, transparent 92%);
   transform: translateY(-10px);
 }
+
+
+
+/* puplic notice */
+
+/*--------------------------------------------------------------
+# Features Section
+--------------------------------------------------------------*/
+.features .features-image {
+  position: relative;
+  min-height: 350px;
+  
+}.btn-Features{
+  background-color: #21733a;
+  color: #f7b41f;
+  height: 50px;
+  width: 150px;
+  margin-left:500px;
+  margin-top: -70px;
+}
+.features .features-image img {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.features .features-item h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 5px 0;
+}
+
+.features .features-item i {
+  font-size: 30px;
+  color: var(--accent-color);
+  margin-right: 20px;
+  line-height: 0;
+}
+
+.features .features-item p {
+  font-size: 15px;
+  color: color-mix(in srgb, var(--default-color), transparent 20%);
+  margin: 0;
+}
+
+/*--------------------------------------------------------------
+# Services Section
+--------------------------------------------------------------*/
+.btn-notice{
+  height: 50px;
+  width: 150px;
+  background-color: #21733a;
+  color: #f7b41f;
+  margin-left: 700px;
+  margin-top: 40px;
+}
+.notice{
+ background-color: #ffffff;
+}
+
+.notice .notice-item {
+  text-align: center;
+  border: 1px solid color-mix(in srgb, #215f34, transparent 85%);
+  padding: 80px 20px;
+  height: 100%;
+  transition: all ease-in-out 0.3s;
+}
+
+.notice .notice-item .icon {
+  background: #3c9a41;
+  color:white;
+  margin: 0 auto;
+  width: 64px;
+  height: 55px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  transition: 0.3s;
+}
+
+.notice .notice-item .icon i {
+  font-size: 20px;
+  transition: ease-in-out 0.3s;
+}
+
+.notice .notice-item h5 {
+  font-weight: 400;
+  margin: 10px 0 15px 0;
+  font-size: 22px;
+  transition: 0.3s;
+  color: #215f34;
+}
+
+.notice .notice-item p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.notice .notice-item:hover {
+  box-shadow: 2px 2 25px 2 color-mix(in srgb,#3c9a41, transparent 92%);
+  transform: translateY(-10px);
+}
+
+#notice-box{
+  height: 250px;
+  width: 250px;;
+}
+
+
+/* public notice end */
 
 /*--------------------------------------------------------------
 # Call To Action Section
